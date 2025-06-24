@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Rekrutacja WNBiW UMK Toruń</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin:0; font-family: Arial, sans-serif; background:#f4f4f4;
+    }
+    header {
+      background:#003366; color:#fff; text-align:center;
+      padding:30px 10px;
+    }
+    header h1 { margin:0; font-size:2rem; }
+    .grid {
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      gap:20px;
+      padding:20px;
+      max-width:1200px;
+      margin:0 auto;
+    }
+    .card {
+      position:relative; overflow:hidden;
+      border-radius:8px;
+      box-shadow:0 4px 8px rgba(0,0,0,0.1);
+      background:#fff;
+      transition: transform .3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card img {
+      width:100%; height:180px; object-fit:cover;
+    }
+    .card-content {
+      padding:15px;
+    }
+    .card-content h2 {
+      margin:0 0 10px; font-size:1.25rem;
+    }
+    .card-content p {
+      margin:0 0 15px; color:#555;
+    }
+    .card-content a {
+      display:inline-block; text-decoration:none;
+      color:#fff; background:#0066cc; padding:10px 15px;
+      border-radius:4px;
+    }
+    footer {
+      text-align:center; padding:10px;
+      background:#e0e0e0; color:#333;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Rekrutacja na studia WNBiW UMK Toruń</h1>
+  <p>Sprawdź terminy, kierunki i dowiedz się jak się zapisać!</p>
+</header>
+
+<div class="grid">
+  <article class="card">
+    <img src="https://www.biol.umk.pl/fers/rekrutacja/biologia.jpg" alt="Biologia">
+    <div class="card-content">
+      <h2>Biologia (I stopień)</h2>
+      <p>Studia I stopnia – licencjat i magisterium. Nowoczesne metody biologii eksperymentalnej i środowiskowej. Seminaria, stypendia i własny profil studiów.</p>
+      <a href="https://www.biol.umk.pl/kandydat/kierunek-biologia/" target="_blank">Dowiedz się więcej</a>
+    </div>
+  </article>
+  <article class="card">
+    <img src="https://www.biol.umk.pl/kandydat/kierunek-sport.jpg" alt="Sport i wellness">
+    <div class="card-content">
+      <h2>Sport i wellness (I stopień)</h2>
+      <p>Dla dynamicznych i aktywnych – szeroki zakres przedmiotów przyrodniczych, medycznych i wellness. Praktyki, basen, fitness i SPA.</p>
+      <a href="https://www.biol.umk.pl/kandydat/kierunek-sport-i-wellness/" target="_blank">Dowiedz się więcej</a>
+    </div>
+  </article>
+  <article class="card">
+    <img src="https://www.biol.umk.pl/kandydat/biotechnologia.jpg" alt="Biotechnologia">
+    <div class="card-content">
+      <h2>Biotechnologia (I/II stopień)</h2>
+      <p>Interdyscyplinarna i dynamiczna – od biologii molekularnej po agrobiotechnologię. Laboratoria, projekty badawcze, ścieżki specjalizacji.</p>
+      <a href="https://www.biol.umk.pl/kandydat/kierunek-biotechnologia/" target="_blank">Dowiedz się więcej</a>
+    </div>
+  </article>
+  <article class="card">
+    <img src="https://www.biol.umk.pl/fers/rekrutacja/ogolne.jpg" alt="Terminy rekrutacji">
+    <div class="card-content">
+      <h2>Terminy rekrutacji 2024/2025</h2>
+      <p>I nabór: przyjmowanie dokumentów 19–24 lipca, wyniki 18 lipca. II nabór: dokumenty 20–23 września, wyniki 19 września.</p>
+      <a href="https://www.biol.umk.pl/fers/rekrutacja/" target="_blank">Szczegółowe informacje</a>
+    </div>
+  </article>
+</div>
+
+<footer>
+  <p>Wydział Nauk Biologicznych i Weterynaryjnych UMK • ul. Lwowska 1, 87‑100 Toruń • biuro rekrutacji: +48 56 611‑25‑05</p>
+</footer>
+
+</body>
+</html>
